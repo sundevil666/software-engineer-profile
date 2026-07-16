@@ -1,0 +1,63 @@
+# Internal AI knowledge base. The public repository must not expose agent
+# instructions, strategy notes, roadmap drafts, architecture deliberations,
+# or private personal context.
+docs/
+
+# Local source materials awaiting explicit publication approval.
+# Store resumes, screenshots, certificates, recommendations, drafts, exports,
+# job descriptions, and other private working material here.
+.private/
+private/
+
+# Accidental nested repository created during initial workspace setup.
+software-engineer-profile/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.output/
+coverage/
+
+# Deployment and tool state
+.vercel/
+.netlify/
+.wrangler/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Local AI-agent and automation state
+.agents/
+.codex/
+.claude/
+.cursor/
+CLAUDE.local.md
+AGENTS.local.md
+
+# Temporary and backup files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*~
