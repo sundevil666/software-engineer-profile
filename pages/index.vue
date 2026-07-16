@@ -10,5 +10,8 @@
       This placeholder confirms that the Nuxt application is running. Verified
       professional content and visual design will be added in later milestones.
     </p>
+    <p>
+      Automated quality checks and deployment are configured.
+    </p>
   </section>
 </template>
