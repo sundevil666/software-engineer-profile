@@ -1,15 +1,11 @@
-# Internal AI knowledge base. The public repository must not expose agent
-# instructions, strategy notes, roadmap drafts, architecture deliberations,
-# or private personal context.
+# Private local project documentation
 docs/
 
-# Local source materials awaiting explicit publication approval.
-# Store resumes, screenshots, certificates, recommendations, drafts, exports,
-# job descriptions, and other private working material here.
+# Private local working materials
 .private/
 private/
 
-# Accidental nested repository created during initial workspace setup.
+# Local nested workspace
 software-engineer-profile/
 
 # Local environment variables and secrets
@@ -25,6 +21,7 @@ build/
 .nuxt/
 .output/
 coverage/
+tmp/
 
 # Deployment and tool state
 .vercel/
@@ -46,7 +43,7 @@ Thumbs.db
 !.vscode/extensions.json
 !.vscode/settings.json
 
-# Local AI-agent and automation state
+# Local development and automation state
 .agents/
 .codex/
 .claude/

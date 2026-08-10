@@ -12,6 +12,13 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/svg+xml',
+          href: '/favicon.svg?v=5',
+        },
+      ],
       meta: [
         {
           name: 'description',
@@ -21,6 +28,10 @@ export default defineNuxtConfig({
           name: 'viewport',
           content: 'width=device-width, initial-scale=1',
         },
+        {
+          name: 'theme-color',
+          content: '#f4f1e8',
+        },
       ],
       title: siteMeta.title,
     },
@@ -28,5 +39,10 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
     typeCheck: true,
+  },
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
   },
 })
