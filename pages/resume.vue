@@ -78,7 +78,10 @@ useSeoMeta({
         :key="project.name"
         class="resume-project"
       >
-        <h3>{{ project.name }}</h3>
+        <div class="resume-project__heading">
+          <h3>{{ project.name }}</h3>
+          <p v-if="project.period" class="resume-project__period">{{ project.period }}</p>
+        </div>
         <p v-if="project.confidentialityNote" class="resume-project__confidentiality">
           {{ project.confidentialityNote }}
         </p>
@@ -106,11 +109,6 @@ useSeoMeta({
     </section>
 
     <section class="resume__closing" :aria-label="copy.additionalInfo">
-      <div>
-        <h2>{{ copy.teaching }}</h2>
-        <h3>{{ profile.teaching.organization }}</h3>
-        <p>{{ profile.teaching.summary }}</p>
-      </div>
       <div>
         <h2>{{ copy.languages }}</h2>
         <ul>
@@ -213,6 +211,28 @@ useSeoMeta({
   color: #526158;
 }
 
+.resume-project__period {
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.resume-project__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+
+  h3,
+  p {
+    margin-bottom: 0.2rem;
+  }
+
+  p {
+    flex: none;
+  }
+}
+
 .resume-project__confidentiality {
   margin-bottom: 0.15rem !important;
   color: #526158;
@@ -299,10 +319,6 @@ useSeoMeta({
 }
 
 .resume__closing {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 1.5rem;
-
   ul {
     margin: 0;
     padding-left: 1.1rem;
@@ -321,8 +337,7 @@ useSeoMeta({
     justify-items: start;
   }
 
-  .resume-skills,
-  .resume__closing {
+  .resume-skills {
     grid-template-columns: 1fr;
   }
 }
@@ -390,18 +405,7 @@ useSeoMeta({
   }
 
   .resume__closing {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
     padding-top: 2mm;
-
-    > div:first-child {
-      flex: 1.4;
-    }
-
-    > div:last-child {
-      flex: 1;
-    }
   }
 }
 </style>

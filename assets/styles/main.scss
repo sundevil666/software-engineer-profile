@@ -446,6 +446,12 @@ h3 {
   font-style: italic;
 }
 
+.project-card__period {
+  margin: -0.55rem 0 0.8rem !important;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
 .project-card__links {
   display: flex;
   flex-wrap: wrap;

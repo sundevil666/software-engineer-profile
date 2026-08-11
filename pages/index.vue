@@ -166,6 +166,9 @@ useHead({
           </div>
           <div>
             <h3>{{ project.name }}</h3>
+            <p v-if="project.period" class="project-card__period">
+              {{ project.period }}
+            </p>
             <p v-if="project.confidentialityNote" class="project-card__confidentiality">
               {{ project.confidentialityNote }}
             </p>

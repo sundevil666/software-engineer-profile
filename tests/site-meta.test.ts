@@ -12,7 +12,7 @@ describe('public profile content', () => {
 
   it('contains the approved experience and project baseline', () => {
     expect(profile.experience[0]?.period).toBe('Apr 2023 — Present')
-    expect(profile.projects).toHaveLength(7)
+    expect(profile.projects).toHaveLength(8)
     expect(new Set(profile.projects.map(project => project.id)).size).toBe(
       profile.projects.length,
     )

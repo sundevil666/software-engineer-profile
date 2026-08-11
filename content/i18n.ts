@@ -209,7 +209,8 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
 }> = {
   de: {
     experience: [
-      'Ich liefere Vue.js-Produkte für Kunden, als Freelancer und in eigenen Projekten - von den Anforderungen bis zum Deployment. Dazu gehören eine komplette Kundenwebsite, My Shift, PolandShopPrice, Mentor AI und vertrauliche Geschäftsplattformen mit Rollen, Workflows und Reporting.',
+      'Ich liefere Vue.js-Produkte für Kunden, als Freelancer und in eigenen Projekten - von den Anforderungen bis zum Deployment. Dazu gehören eine komplette Kundenwebsite, Poland Group Materials, My Shift, PolandShopPrice, Mentor AI und vertrauliche Geschäftsplattformen mit Rollen, Workflows und Reporting.',
+      'Unterrichtete HTML- und CSS-Kurse für angehende Frontend-Entwickler. Erstellte praktische Übungen, prüfte die Arbeiten der Teilnehmenden, gab Feedback und half ihnen, ihre ersten responsiven Webseiten zu entwickeln und die Grundlagen der Frontend-Entwicklung zu verstehen.',
       'Konzipierte, entwickelte und lieferte selbstständig ein MVP für persönliche Konten von Teilnehmenden und Fachkräften im schulischen Assessment. Entwickelte Teilnehmerverwaltung, Testzuweisungen, Dashboards, Diagramme und detaillierte Auswertungen in Zusammenarbeit mit Backend- und Testing-Frontend-Entwicklern.',
       'Pflegte und erweiterte als Teil eines zweiköpfigen Frontend-Teams eine bestehende Vue-2-Anwendung. Implementierte klar definierte Funktionen und passte Lösungen an die vorhandene Codebasis an.',
       'Lieferte Websites und Geschäftsanwendungen von den Anforderungen bis zum Deployment. Koordinierte Designer und Backend-Entwickler und entwickelte Lösungen mit WordPress, Joomla, JavaScript und Vue.js, darunter eine E-Commerce-Plattform mit eigener Administration und Lieferlogik.',
@@ -220,6 +221,7 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
       'Lieferte selbstständig ein MVP für Portale von Teilnehmenden und Assessment-Fachkräften. Integrierte eine separate Testanwendung und visualisierte Ergebnisse mit Dashboards, Diagrammen und detaillierten Interpretationen.',
       'Lieferte eine öffentliche WordPress-Website und einen produktiven Vue.js-Shop. Koordinierte Designer und Backend-Entwickler und entwickelte Shop, Administration sowie eine Verpackungslogik für Kartongrößen, Produktkompatibilität und Kosten.',
       'Plattformübergreifende mobile App zum Durchsuchen von PDF-Produktkatalogen. Für Android und iOS entwickelt; die Veröffentlichung im App Store ist in Vorbereitung.',
+      'Plattformübergreifendes mobiles Produkt für Baustoffinformationen und interaktive Kostenschätzungen. Umgesetzt wurden die iOS-Erfahrung, tabletgerechte Abläufe, Onboarding, Teilen und der App-Store-Review-Prozess.',
       'Eigene Englischlern-PWA mit Übungen für Hören, Sprechen und Wortschatz sowie Fortschrittsverfolgung und Sprachfunktionen.',
       'Mehrsprachige Anwendung zur Schichtplanung mit Erinnerungen, Countdowns und praktischen Produktivitätsfunktionen.',
     ],
@@ -228,7 +230,8 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
   },
   pl: {
     experience: [
-      'Realizuję kontraktowe, freelancerskie i własne produkty Vue.js od wymagań po wdrożenie. Ostatnie prace obejmują kompletną stronę klienta, My Shift, PolandShopPrice, Mentor AI oraz objęte NDA platformy biznesowe z rolami, procesami i raportowaniem.',
+      'Realizuję kontraktowe, freelancerskie i własne produkty Vue.js od wymagań po wdrożenie. Ostatnie prace obejmują kompletną stronę klienta, Poland Group Materials, My Shift, PolandShopPrice, Mentor AI oraz objęte NDA platformy biznesowe z rolami, procesami i raportowaniem.',
+      'Prowadziłem kursy HTML i CSS dla początkujących frontend developerów. Przygotowywałem ćwiczenia praktyczne, oceniałem prace uczestników, przekazywałem informacje zwrotne i pomagałem im tworzyć pierwsze responsywne strony oraz poznawać podstawy frontend developmentu.',
       'Samodzielnie zaprojektowałem, stworzyłem i wdrożyłem MVP kont uczestników badań oraz specjalistów pracujących z uczniami. Zbudowałem zarządzanie uczestnikami, przydzielanie testów, dashboardy wyników, wykresy i szczegółowe interpretacje, współpracując z backendem i frontendem aplikacji testowej.',
       'Utrzymywałem i rozwijałem starszą aplikację Vue 2 w dwuosobowym zespole frontendowym. Wdrażałem precyzyjnie określone funkcje i dopasowywałem rozwiązania do istniejącego kodu.',
       'Realizowałem strony i aplikacje biznesowe od wymagań po wdrożenie. Koordynowałem projektantów i backend developerów oraz tworzyłem rozwiązania WordPress, Joomla, JavaScript i Vue.js, w tym sklep z własnym panelem i logiką dostaw.',
@@ -239,6 +242,7 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
       'Samodzielnie dostarczyłem MVP portali uczestników i specjalistów. Zintegrowałem osobną aplikację testową i prezentowałem wyniki przez dashboardy, wykresy i szczegółowe interpretacje.',
       'Dostarczyłem publiczną stronę WordPress i działający sklep Vue.js. Koordynowałem projektanta i backend developera, stworzyłem sklep, panel administracyjny i logikę pakowania uwzględniającą rozmiary pudełek, zgodność produktów oraz koszty.',
       'Wieloplatformowa aplikacja mobilna do przeglądania katalogów produktów PDF. Zbudowana dla Androida i iOS, obecnie przygotowywana do publikacji w App Store.',
+      'Wieloplatformowy produkt mobilny do pracy z informacjami o materiałach budowlanych i tworzenia interaktywnych kosztorysów. Zrealizowałem wersję iOS, responsywne widoki tabletowe, onboarding, udostępnianie i proces App Store Review.',
       'Własna PWA do nauki angielskiego z ćwiczeniami słuchania, mówienia i słownictwa, śledzeniem postępów oraz funkcjami mowy.',
       'Wielojęzyczna aplikacja do planowania zmian z przypomnieniami, licznikami i praktycznymi funkcjami produktywności.',
     ],
@@ -247,7 +251,8 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
   },
   sk: {
     experience: [
-      'Dodávam zmluvné, freelance a vlastné Vue.js produkty od požiadaviek po nasadenie. Medzi aktuálne práce patria kompletný klientsky web, My Shift, PolandShopPrice, Mentor AI a biznis platformy pod NDA s rolami, pracovnými postupmi a reportmi.',
+      'Dodávam zmluvné, freelance a vlastné Vue.js produkty od požiadaviek po nasadenie. Medzi aktuálne práce patria kompletný klientsky web, Poland Group Materials, My Shift, PolandShopPrice, Mentor AI a biznis platformy pod NDA s rolami, pracovnými postupmi a reportmi.',
+      'Viedol som kurzy HTML a CSS pre začínajúcich frontend vývojárov. Pripravoval som praktické cvičenia, kontroloval práce účastníkov, poskytoval spätnú väzbu a pomáhal im vytvárať prvé responzívne webové stránky a osvojiť si základy frontend vývoja.',
       'Samostatne som navrhol, vyvinul a dodal MVP účtov pre účastníkov hodnotenia a odborníkov pracujúcich so žiakmi. Vytvoril som správu účastníkov, prideľovanie testov, dashboardy, grafy a detailné interpretácie v spolupráci s backend a testing-frontend vývojármi.',
       'Udržiaval a rozširoval som staršiu Vue 2 aplikáciu v dvojčlennom frontend tíme. Implementoval som presne definované funkcie a prispôsoboval riešenia existujúcemu kódu.',
       'Dodával som weby a biznis aplikácie od požiadaviek po nasadenie. Koordinoval som dizajnérov a backend vývojárov a tvoril riešenia vo WordPresse, Joomle, JavaScripte a Vue.js vrátane e-shopu s vlastnou administráciou a logikou doručenia.',
@@ -258,6 +263,7 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
       'Samostatne som dodal MVP portálov pre účastníkov a odborníkov. Integroval som samostatnú testovaciu aplikáciu a výsledky zobrazil v dashboardoch, grafoch a detailných interpretáciách.',
       'Dodal som verejný WordPress web a funkčný Vue.js obchod. Koordinoval som dizajnéra a backend vývojára a vytvoril obchod, administráciu aj baliacu logiku pre veľkosti krabíc, kompatibilitu produktov a náklady.',
       'Multiplatformová mobilná aplikácia na prehliadanie PDF katalógov produktov. Vytvorená pre Android a iOS, momentálne smeruje k publikovaniu v App Store.',
+      'Multiplatformový mobilný produkt na prácu s informáciami o stavebných materiáloch a tvorbu interaktívnych odhadov nákladov. Dodal som iOS verziu, responzívne tabletové obrazovky, onboarding, zdieľanie a proces App Store Review.',
       'Vlastná PWA na učenie angličtiny zameraná na počúvanie, rozprávanie, slovnú zásobu, sledovanie pokroku a hlasové funkcie.',
       'Viacjazyčná aplikácia na plánovanie zmien s pripomienkami, odpočítavaním a praktickými funkciami produktivity.',
     ],
@@ -266,7 +272,8 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
   },
   uk: {
     experience: [
-      'Розробляю контрактні, фриланс- і власні продукти на Vue.js від вимог до розгортання. Серед актуальних робіт - сайт клієнта під ключ, My Shift, PolandShopPrice, Mentor AI та бізнес-платформи під NDA з ролями, робочими процесами й звітністю.',
+      'Розробляю контрактні, фриланс- і власні продукти на Vue.js від вимог до розгортання. Серед актуальних робіт - сайт клієнта під ключ, Poland Group Materials, My Shift, PolandShopPrice, Mentor AI та бізнес-платформи під NDA з ролями, робочими процесами й звітністю.',
+      'Проводив курси з HTML і CSS для frontend-розробників-початківців. Готував практичні завдання, перевіряв роботи учасників, надавав зворотний зв\'язок і допомагав створювати перші адаптивні вебсторінки та опановувати основи frontend-розробки.',
       'Самостійно спроєктував, розробив і запустив MVP особистих кабінетів учасників оцінювання та фахівців, які працюють зі школярами. Створив керування учасниками, призначення тестів, дашборди, графіки й детальні інтерпретації у співпраці з backend- і testing-frontend-розробниками.',
       'Підтримував і розвивав legacy-застосунок на Vue 2 у frontend-команді з двох людей. Реалізовував чітко визначені функції та адаптував рішення до наявної кодової бази.',
       'Створював сайти й бізнес-застосунки від вимог до розгортання. Координував дизайнерів і backend-розробників та будував рішення на WordPress, Joomla, JavaScript і Vue.js, зокрема інтернет-магазин із власною адмінпанеллю та логікою доставки.',
@@ -277,6 +284,7 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
       'Самостійно реалізував MVP порталів учасників і фахівців. Інтегрував окремий застосунок для тестування та візуалізував результати через дашборди, графіки й детальні інтерпретації.',
       'Створив публічний сайт на WordPress і робочий магазин на Vue.js. Координував дизайнера й backend-розробника, реалізував вітрину, адмінпанель і логіку пакування з урахуванням розмірів коробок, сумісності товарів і вартості.',
       'Кросплатформний мобільний застосунок для перегляду PDF-каталогів товарів. Створений для Android та iOS і готується до публікації в App Store.',
+      'Кросплатформний мобільний продукт для роботи з інформацією про будівельні матеріали та створення інтерактивних кошторисів. Реалізував iOS-версію, адаптивні планшетні сценарії, онбординг, поширення та процес App Store Review.',
       'Власний PWA для вивчення англійської з практикою аудіювання, мовлення й лексики, відстеженням прогресу та голосовими функціями.',
       'Багатомовний застосунок для планування змін із нагадуваннями, зворотними відліками та практичними функціями продуктивності.',
     ],
@@ -285,7 +293,8 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
   },
   ru: {
     experience: [
-      'Разрабатываю контрактные, фриланс- и собственные продукты на Vue.js от требований до развёртывания. Среди актуальных работ - сайт клиента под ключ, My Shift, PolandShopPrice, Mentor AI и бизнес-платформы под NDA с ролями, рабочими процессами и отчётностью.',
+      'Разрабатываю контрактные, фриланс- и собственные продукты на Vue.js от требований до развёртывания. Среди актуальных работ - сайт клиента под ключ, Poland Group Materials, My Shift, PolandShopPrice, Mentor AI и бизнес-платформы под NDA с ролями, рабочими процессами и отчётностью.',
+      'Проводил курсы по HTML и CSS для начинающих frontend-разработчиков. Готовил практические задания, проверял работы участников, давал обратную связь и помогал создавать первые адаптивные веб-страницы и осваивать основы frontend-разработки.',
       'Самостоятельно спроектировал, разработал и запустил MVP личных кабинетов участников оценки и специалистов, работающих со школьниками. Создал управление участниками, назначение тестов, дашборды, графики и детальные интерпретации вместе с backend- и testing-frontend-разработчиками.',
       'Поддерживал и развивал legacy-приложение на Vue 2 во frontend-команде из двух человек. Реализовывал чётко определённые функции и адаптировал решения к существующей кодовой базе.',
       'Создавал сайты и бизнес-приложения от требований до развёртывания. Координировал дизайнеров и backend-разработчиков и строил решения на WordPress, Joomla, JavaScript и Vue.js, включая интернет-магазин с собственной админпанелью и логикой доставки.',
@@ -296,6 +305,7 @@ const localizedDetails: Record<Exclude<LocaleCode, 'en'>, {
       'Самостоятельно реализовал MVP порталов участников и специалистов. Интегрировал отдельное приложение для тестирования и визуализировал результаты через дашборды, графики и подробные интерпретации.',
       'Создал публичный сайт на WordPress и работающий магазин на Vue.js. Координировал дизайнера и backend-разработчика, реализовал витрину, админпанель и логику упаковки с учётом размеров коробок, совместимости товаров и стоимости.',
       'Кроссплатформенное мобильное приложение для просмотра PDF-каталогов товаров. Создано для Android и iOS и готовится к публикации в App Store.',
+      'Кроссплатформенный мобильный продукт для работы с информацией о строительных материалах и создания интерактивных смет. Реализовал iOS-версию, адаптивные планшетные сценарии, онбординг, отправку данных и процесс App Store Review.',
       'Собственная PWA для изучения английского с практикой аудирования, речи и лексики, отслеживанием прогресса и голосовыми функциями.',
       'Многоязычное приложение для планирования смен с напоминаниями, обратными отсчётами и практичными функциями продуктивности.',
     ],
@@ -309,41 +319,53 @@ const localizedLabels: Record<Exclude<LocaleCode, 'en'>, {
   independent: string
   periods: string[]
   projectNames: string[]
+  ongoingProjectPeriod: string
+  materialsProjectPeriod: string
   confidentiality: string
 }> = {
   de: {
-    roles: ['Selbstständiger Frontend-Entwickler', 'Frontend-Entwickler', 'Frontend-Entwickler', 'Freelance-Berater'],
+    roles: ['Selbstständiger Frontend-Entwickler', 'Dozent für HTML & CSS', 'Frontend-Entwickler', 'Frontend-Entwickler', 'Freelance-Berater'],
     independent: 'Selbstständig',
-    periods: ['Apr 2023 — Heute', 'Jan 2022 — Mär 2023', 'Jan 2021 — Dez 2021', 'Mär 2013 — Jan 2021'],
-    projectNames: ['Finanzoperationsplattform', 'Werbeoperationsplattform', 'Plattform für Bildungsassessment', 'Poland Group Website & Shop', 'PolandShopPrice', 'Mentor AI', 'My Shift'],
+    periods: ['Apr 2023 — Heute', 'Mär 2018 — Dez 2023', 'Jan 2022 — Mär 2023', 'Jan 2021 — Dez 2021', 'Mär 2013 — Jan 2021'],
+    projectNames: ['Finanzoperationsplattform', 'Werbeoperationsplattform', 'Plattform für Bildungsassessment', 'Poland Group Website & Shop', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
+    ongoingProjectPeriod: 'Jun 2026 — Heute',
+    materialsProjectPeriod: 'Jul 2026 — Heute',
     confidentiality: 'Verallgemeinerter Projektname; Kundendaten sind gemäß NDA vertraulich.',
   },
   pl: {
-    roles: ['Niezależny Frontend Developer', 'Frontend Developer', 'Frontend Developer', 'Konsultant freelance'],
+    roles: ['Niezależny Frontend Developer', 'Instruktor HTML i CSS', 'Frontend Developer', 'Frontend Developer', 'Konsultant freelance'],
     independent: 'Niezależnie',
-    periods: ['kwi 2023 — obecnie', 'sty 2022 — mar 2023', 'sty 2021 — gru 2021', 'mar 2013 — sty 2021'],
-    projectNames: ['Platforma operacji finansowych', 'Platforma operacji reklamowych', 'Platforma ocen edukacyjnych', 'Strona i sklep Poland Group', 'PolandShopPrice', 'Mentor AI', 'My Shift'],
+    periods: ['kwi 2023 — obecnie', 'mar 2018 — gru 2023', 'sty 2022 — mar 2023', 'sty 2021 — gru 2021', 'mar 2013 — sty 2021'],
+    projectNames: ['Platforma operacji finansowych', 'Platforma operacji reklamowych', 'Platforma ocen edukacyjnych', 'Strona i sklep Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
+    ongoingProjectPeriod: 'cze 2026 — obecnie',
+    materialsProjectPeriod: 'lip 2026 — obecnie',
     confidentiality: 'Uogólniona nazwa projektu; dane klienta są poufne zgodnie z NDA.',
   },
   sk: {
-    roles: ['Nezávislý frontend vývojár', 'Frontend vývojár', 'Frontend vývojár', 'Freelance konzultant'],
+    roles: ['Nezávislý frontend vývojár', 'Lektor HTML a CSS', 'Frontend vývojár', 'Frontend vývojár', 'Freelance konzultant'],
     independent: 'Nezávisle',
-    periods: ['apr 2023 — súčasnosť', 'jan 2022 — mar 2023', 'jan 2021 — dec 2021', 'mar 2013 — jan 2021'],
-    projectNames: ['Platforma finančných operácií', 'Platforma reklamných operácií', 'Platforma vzdelávacieho hodnotenia', 'Web a obchod Poland Group', 'PolandShopPrice', 'Mentor AI', 'My Shift'],
+    periods: ['apr 2023 — súčasnosť', 'mar 2018 — dec 2023', 'jan 2022 — mar 2023', 'jan 2021 — dec 2021', 'mar 2013 — jan 2021'],
+    projectNames: ['Platforma finančných operácií', 'Platforma reklamných operácií', 'Platforma vzdelávacieho hodnotenia', 'Web a obchod Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
+    ongoingProjectPeriod: 'jún 2026 — súčasnosť',
+    materialsProjectPeriod: 'júl 2026 — súčasnosť',
     confidentiality: 'Zovšeobecnený názov projektu; údaje klienta sú dôverné podľa NDA.',
   },
   uk: {
-    roles: ['Незалежний frontend-розробник', 'Frontend-розробник', 'Frontend-розробник', 'Фриланс-консультант'],
+    roles: ['Незалежний frontend-розробник', 'Викладач HTML і CSS', 'Frontend-розробник', 'Frontend-розробник', 'Фриланс-консультант'],
     independent: 'Незалежна робота',
-    periods: ['кві 2023 — дотепер', 'січ 2022 — бер 2023', 'січ 2021 — гру 2021', 'бер 2013 — січ 2021'],
-    projectNames: ['Платформа фінансових операцій', 'Платформа рекламних операцій', 'Платформа освітнього оцінювання', 'Сайт і магазин Poland Group', 'PolandShopPrice', 'Mentor AI', 'My Shift'],
+    periods: ['кві 2023 — дотепер', 'бер 2018 — гру 2023', 'січ 2022 — бер 2023', 'січ 2021 — гру 2021', 'бер 2013 — січ 2021'],
+    projectNames: ['Платформа фінансових операцій', 'Платформа рекламних операцій', 'Платформа освітнього оцінювання', 'Сайт і магазин Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
+    ongoingProjectPeriod: 'чер 2026 — дотепер',
+    materialsProjectPeriod: 'лип 2026 — дотепер',
     confidentiality: 'Узагальнена назва проєкту; дані клієнта конфіденційні згідно з NDA.',
   },
   ru: {
-    roles: ['Независимый frontend-разработчик', 'Frontend-разработчик', 'Frontend-разработчик', 'Фриланс-консультант'],
+    roles: ['Независимый frontend-разработчик', 'Преподаватель HTML и CSS', 'Frontend-разработчик', 'Frontend-разработчик', 'Фриланс-консультант'],
     independent: 'Независимая работа',
-    periods: ['апр 2023 — настоящее время', 'янв 2022 — мар 2023', 'янв 2021 — дек 2021', 'мар 2013 — янв 2021'],
-    projectNames: ['Платформа финансовых операций', 'Платформа рекламных операций', 'Платформа образовательной оценки', 'Сайт и магазин Poland Group', 'PolandShopPrice', 'Mentor AI', 'My Shift'],
+    periods: ['апр 2023 — настоящее время', 'мар 2018 — дек 2023', 'янв 2022 — мар 2023', 'янв 2021 — дек 2021', 'мар 2013 — янв 2021'],
+    projectNames: ['Платформа финансовых операций', 'Платформа рекламных операций', 'Платформа образовательной оценки', 'Сайт и магазин Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
+    ongoingProjectPeriod: 'июн 2026 — настоящее время',
+    materialsProjectPeriod: 'июл 2026 — настоящее время',
     confidentiality: 'Обобщённое название проекта; данные клиента конфиденциальны согласно NDA.',
   },
 }
@@ -371,6 +393,11 @@ export function getProfile(locale: LocaleCode) {
     projects: englishProfile.projects.map((item, index) => ({
       ...item,
       name: labels.projectNames[index] ?? item.name,
+      period: item.id === 'poland-group-materials'
+        ? labels.materialsProjectPeriod
+        : ['mentor-ai', 'my-shift'].includes(item.id)
+          ? labels.ongoingProjectPeriod
+          : item.period,
       confidentialityNote: item.confidentialityNote ? labels.confidentiality : undefined,
       summary: details.projects[index] ?? item.summary,
     })),

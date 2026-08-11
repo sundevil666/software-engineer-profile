@@ -8,6 +8,7 @@ export interface Experience {
 export interface Project {
   id: string
   name: string
+  period?: string
   summary: string
   stack: string[]
   confidentialityNote?: string
@@ -97,7 +98,14 @@ export const profile = {
       period: 'Apr 2023 — Present',
       role: 'Independent Frontend Developer',
       summary:
-        'Deliver contract, freelance, and personal Vue.js products from requirements through deployment. Recent and current work includes an end-to-end client website, My Shift, PolandShopPrice, Mentor AI, and NDA business platforms with role-based workflows and reporting.',
+        'Deliver contract, freelance, and personal Vue.js products from requirements through deployment. Recent and current work includes an end-to-end client website, Poland Group Materials, My Shift, PolandShopPrice, Mentor AI, and NDA business platforms with role-based workflows and reporting.',
+    },
+    {
+      company: 'IT2.0 School',
+      period: 'Mar 2018 — Dec 2023',
+      role: 'Frontend Development Instructor',
+      summary:
+        'Taught HTML and CSS courses for aspiring frontend developers. Prepared practical exercises, reviewed students\' work, provided feedback, and helped students build their first responsive web pages and understand frontend development fundamentals.',
     },
     {
       company: 'Organic Code',
@@ -164,8 +172,17 @@ export const profile = {
       stack: ['Vue 3', 'Quasar', 'Capacitor', 'PDF', 'Android', 'iOS'],
     },
     {
+      id: 'poland-group-materials',
+      name: 'Poland Group Materials',
+      period: 'Jul 2026 — Present',
+      summary:
+        'A cross-platform mobile product for working with construction-material information and preparing interactive cost estimates. Delivered the iOS experience, including tablet-responsive flows, onboarding, sharing, and the App Store review process.',
+      stack: ['Vue 3', 'Quasar', 'Capacitor', 'TypeScript', 'iOS', 'iPadOS'],
+    },
+    {
       id: 'mentor-ai',
       name: 'Mentor AI',
+      period: 'Jun 2026 — Present',
       summary:
         'A personal English-learning PWA designed around listening, speaking, vocabulary practice, progress tracking, and speech features, with further development planned.',
       stack: ['Vue 3', 'TypeScript', 'Quasar', 'Pinia', 'PWA', 'Express'],
@@ -173,6 +190,7 @@ export const profile = {
     {
       id: 'my-shift',
       name: 'My Shift',
+      period: 'Jun 2026 — Present',
       summary:
         'A multilingual shift-planning application with reminders, countdowns, and practical productivity features.',
       stack: ['Vue 3', 'TypeScript', 'Quasar', 'Capacitor', 'PWA'],
