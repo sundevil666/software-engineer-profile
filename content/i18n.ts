@@ -329,7 +329,7 @@ const localizedLabels: Record<Exclude<LocaleCode, 'en'>, {
     periods: ['Apr 2023 — Heute', 'Mär 2018 — Dez 2023', 'Jan 2022 — Mär 2023', 'Jan 2021 — Dez 2021', 'Mär 2013 — Jan 2021'],
     projectNames: ['Finanzoperationsplattform', 'Werbeoperationsplattform', 'Plattform für Bildungsassessment', 'Poland Group Website & Shop', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
     ongoingProjectPeriod: 'Jun 2026 — Heute',
-    materialsProjectPeriod: 'Jul 2026 — Heute',
+    materialsProjectPeriod: 'Jul 2025 — Heute',
     confidentiality: 'Verallgemeinerter Projektname; Kundendaten sind gemäß NDA vertraulich.',
   },
   pl: {
@@ -338,7 +338,7 @@ const localizedLabels: Record<Exclude<LocaleCode, 'en'>, {
     periods: ['kwi 2023 — obecnie', 'mar 2018 — gru 2023', 'sty 2022 — mar 2023', 'sty 2021 — gru 2021', 'mar 2013 — sty 2021'],
     projectNames: ['Platforma operacji finansowych', 'Platforma operacji reklamowych', 'Platforma ocen edukacyjnych', 'Strona i sklep Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
     ongoingProjectPeriod: 'cze 2026 — obecnie',
-    materialsProjectPeriod: 'lip 2026 — obecnie',
+    materialsProjectPeriod: 'lip 2025 — obecnie',
     confidentiality: 'Uogólniona nazwa projektu; dane klienta są poufne zgodnie z NDA.',
   },
   sk: {
@@ -347,7 +347,7 @@ const localizedLabels: Record<Exclude<LocaleCode, 'en'>, {
     periods: ['apr 2023 — súčasnosť', 'mar 2018 — dec 2023', 'jan 2022 — mar 2023', 'jan 2021 — dec 2021', 'mar 2013 — jan 2021'],
     projectNames: ['Platforma finančných operácií', 'Platforma reklamných operácií', 'Platforma vzdelávacieho hodnotenia', 'Web a obchod Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
     ongoingProjectPeriod: 'jún 2026 — súčasnosť',
-    materialsProjectPeriod: 'júl 2026 — súčasnosť',
+    materialsProjectPeriod: 'júl 2025 — súčasnosť',
     confidentiality: 'Zovšeobecnený názov projektu; údaje klienta sú dôverné podľa NDA.',
   },
   uk: {
@@ -356,7 +356,7 @@ const localizedLabels: Record<Exclude<LocaleCode, 'en'>, {
     periods: ['кві 2023 — дотепер', 'бер 2018 — гру 2023', 'січ 2022 — бер 2023', 'січ 2021 — гру 2021', 'бер 2013 — січ 2021'],
     projectNames: ['Платформа фінансових операцій', 'Платформа рекламних операцій', 'Платформа освітнього оцінювання', 'Сайт і магазин Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
     ongoingProjectPeriod: 'чер 2026 — дотепер',
-    materialsProjectPeriod: 'лип 2026 — дотепер',
+    materialsProjectPeriod: 'лип 2025 — дотепер',
     confidentiality: 'Узагальнена назва проєкту; дані клієнта конфіденційні згідно з NDA.',
   },
   ru: {
@@ -365,7 +365,7 @@ const localizedLabels: Record<Exclude<LocaleCode, 'en'>, {
     periods: ['апр 2023 — настоящее время', 'мар 2018 — дек 2023', 'янв 2022 — мар 2023', 'янв 2021 — дек 2021', 'мар 2013 — янв 2021'],
     projectNames: ['Платформа финансовых операций', 'Платформа рекламных операций', 'Платформа образовательной оценки', 'Сайт и магазин Poland Group', 'PolandShopPrice', 'Poland Group Materials', 'Mentor AI', 'My Shift'],
     ongoingProjectPeriod: 'июн 2026 — настоящее время',
-    materialsProjectPeriod: 'июл 2026 — настоящее время',
+    materialsProjectPeriod: 'июл 2025 — настоящее время',
     confidentiality: 'Обобщённое название проекта; данные клиента конфиденциальны согласно NDA.',
   },
 }

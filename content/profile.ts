@@ -174,7 +174,7 @@ export const profile = {
     {
       id: 'poland-group-materials',
       name: 'Poland Group Materials',
-      period: 'Jul 2026 — Present',
+      period: 'Jul 2025 — Present',
       summary:
         'A cross-platform mobile product for working with construction-material information and preparing interactive cost estimates. Delivered the iOS experience, including tablet-responsive flows, onboarding, sharing, and the App Store review process.',
       stack: ['Vue 3', 'Quasar', 'Capacitor', 'TypeScript', 'iOS', 'iPadOS'],
