@@ -10,6 +10,11 @@ type UiCopy = {
   heroTitle: [string, string]
   explore: string
   download: string
+  pdfPreparing: string
+  pdfPreparingDetail: string
+  pdfError: string
+  pdfRetry: string
+  pdfClose: string
   highlights: string
   experience: string
   experienceTitle: string
@@ -54,6 +59,7 @@ export const ui: Record<LocaleCode, UiCopy> = {
     footer: 'Built with Vue, TypeScript, and care.',
     heroTitle: ['I turn complex workflows into', 'clear digital products.'],
     explore: 'Explore my work', download: 'Download CV', highlights: 'Professional highlights',
+    pdfPreparing: 'Preparing your PDF', pdfPreparingDetail: 'Your CV will download as soon as it is ready.', pdfError: 'Could not prepare the PDF. Please try again.', pdfRetry: 'Try again', pdfClose: 'Close',
     experience: 'Experience', experienceTitle: 'Building for the web since 2013.',
     work: 'Selected work', workTitle: 'Products built around real workflows.',
     workIntro: 'A selection of business, educational, and mobile products from my commercial and independent work.',
@@ -71,6 +77,7 @@ export const ui: Record<LocaleCode, UiCopy> = {
     footer: 'Erstellt mit Vue, TypeScript und Sorgfalt.',
     heroTitle: ['Ich verwandle komplexe Abläufe in', 'klare digitale Produkte.'],
     explore: 'Projekte ansehen', download: 'Lebenslauf laden', highlights: 'Berufliche Eckdaten',
+    pdfPreparing: 'PDF wird vorbereitet', pdfPreparingDetail: 'Der Lebenslauf wird heruntergeladen, sobald er bereit ist.', pdfError: 'Das PDF konnte nicht erstellt werden. Bitte versuchen Sie es erneut.', pdfRetry: 'Erneut versuchen', pdfClose: 'Schließen',
     experience: 'Erfahrung', experienceTitle: 'Webentwicklung seit 2013.',
     work: 'Ausgewählte Projekte', workTitle: 'Produkte für reale Arbeitsabläufe.',
     workIntro: 'Eine Auswahl an Geschäfts-, Bildungs- und Mobilprodukten aus meiner kommerziellen und selbstständigen Arbeit.',
@@ -88,6 +95,7 @@ export const ui: Record<LocaleCode, UiCopy> = {
     footer: 'Zbudowano z Vue, TypeScript i dbałością o szczegóły.',
     heroTitle: ['Zmieniam złożone procesy w', 'przejrzyste produkty cyfrowe.'],
     explore: 'Zobacz moje projekty', download: 'Pobierz CV', highlights: 'Najważniejsze informacje',
+    pdfPreparing: 'Przygotowywanie pliku PDF', pdfPreparingDetail: 'CV zostanie pobrane, gdy będzie gotowe.', pdfError: 'Nie udało się przygotować pliku PDF. Spróbuj ponownie.', pdfRetry: 'Spróbuj ponownie', pdfClose: 'Zamknij',
     experience: 'Doświadczenie', experienceTitle: 'Tworzę dla internetu od 2013 roku.',
     work: 'Wybrane projekty', workTitle: 'Produkty oparte na rzeczywistych procesach.',
     workIntro: 'Wybrane produkty biznesowe, edukacyjne i mobilne z mojej pracy komercyjnej i niezależnej.',
@@ -105,6 +113,7 @@ export const ui: Record<LocaleCode, UiCopy> = {
     footer: 'Vytvorené s Vue, TypeScriptom a dôrazom na detail.',
     heroTitle: ['Mením zložité pracovné postupy na', 'jasné digitálne produkty.'],
     explore: 'Pozrieť projekty', download: 'Stiahnuť CV', highlights: 'Profesijné zhrnutie',
+    pdfPreparing: 'Pripravuje sa PDF', pdfPreparingDetail: 'Životopis sa stiahne hneď, ako bude pripravený.', pdfError: 'PDF sa nepodarilo pripraviť. Skúste to znova.', pdfRetry: 'Skúsiť znova', pdfClose: 'Zavrieť',
     experience: 'Skúsenosti', experienceTitle: 'Tvorím pre web od roku 2013.',
     work: 'Vybrané projekty', workTitle: 'Produkty postavené na reálnych procesoch.',
     workIntro: 'Výber obchodných, vzdelávacích a mobilných produktov z mojej komerčnej a samostatnej práce.',
@@ -122,6 +131,7 @@ export const ui: Record<LocaleCode, UiCopy> = {
     footer: 'Створено з Vue, TypeScript і турботою про деталі.',
     heroTitle: ['Перетворюю складні робочі процеси на', 'зрозумілі цифрові продукти.'],
     explore: 'Переглянути проєкти', download: 'Завантажити CV', highlights: 'Професійні показники',
+    pdfPreparing: 'Підготовка PDF', pdfPreparingDetail: 'Резюме завантажиться, щойно буде готове.', pdfError: 'Не вдалося підготувати PDF. Спробуйте ще раз.', pdfRetry: 'Спробувати знову', pdfClose: 'Закрити',
     experience: 'Досвід', experienceTitle: 'Створюю для вебу з 2013 року.',
     work: 'Вибрані проєкти', workTitle: 'Продукти, побудовані навколо реальних процесів.',
     workIntro: 'Добірка бізнесових, освітніх і мобільних продуктів із моєї комерційної та незалежної роботи.',
@@ -139,6 +149,7 @@ export const ui: Record<LocaleCode, UiCopy> = {
     footer: 'Создано с Vue, TypeScript и вниманием к деталям.',
     heroTitle: ['Превращаю сложные рабочие процессы в', 'понятные цифровые продукты.'],
     explore: 'Посмотреть проекты', download: 'Скачать CV', highlights: 'Профессиональные показатели',
+    pdfPreparing: 'Подготавливаем PDF', pdfPreparingDetail: 'Резюме скачается, как только будет готово.', pdfError: 'Не удалось подготовить PDF. Попробуйте ещё раз.', pdfRetry: 'Повторить', pdfClose: 'Закрыть',
     experience: 'Опыт', experienceTitle: 'Создаю для веба с 2013 года.',
     work: 'Избранные проекты', workTitle: 'Продукты, построенные вокруг реальных процессов.',
     workIntro: 'Подборка бизнес-, образовательных и мобильных продуктов из моей коммерческой и независимой работы.',

@@ -6,6 +6,41 @@ const { locale, copy, localizedProfile: profile } = useResumeLocale()
 const requestUrl = useRequestURL()
 const canonicalUrl = new URL('/', requestUrl.origin).toString()
 const ogImageUrl = new URL(siteMeta.ogImagePath, requestUrl.origin).toString()
+const pdfState = ref<'idle' | 'loading' | 'error'>('idle')
+const pdfDialog = ref<HTMLElement | null>(null)
+const pdfFilename = 'Serhii_Tokmakov_Vue_TypeScript_Frontend_Developer_CV'
+
+watch(pdfState, async (state) => {
+  if (state === 'idle') return
+  await nextTick()
+  pdfDialog.value?.focus()
+})
+
+async function downloadPdf() {
+  if (pdfState.value === 'loading') return
+  pdfState.value = 'loading'
+  const requestedLocale = locale.value
+
+  try {
+    const response = await fetch(`/api/resume.pdf?lang=${encodeURIComponent(requestedLocale)}`)
+    if (!response.ok) throw new Error(`PDF request failed: ${response.status}`)
+    const blob = await response.blob()
+    if (blob.type !== 'application/pdf' || blob.size === 0) throw new Error('Invalid PDF response')
+
+    const objectUrl = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = objectUrl
+    link.download = `${pdfFilename}_${requestedLocale.toUpperCase()}.pdf`
+    document.body.append(link)
+    pdfState.value = 'idle'
+    link.click()
+    link.remove()
+    window.setTimeout(() => URL.revokeObjectURL(objectUrl), 60_000)
+  }
+  catch {
+    pdfState.value = 'error'
+  }
+}
 
 useSeoMeta({
   title: 'Serhii Tokmakov — Vue.js & TypeScript Frontend Developer',
@@ -63,11 +98,11 @@ useHead({
         </p>
         <div class="hero__actions">
           <a class="button button--primary" href="#work">{{ copy.explore }}</a>
-          <a
+          <button
+            type="button"
             class="button button--download"
-            :href="`/api/resume.pdf?lang=${locale}`"
-            download="Serhii_Tokmakov_Vue_TypeScript_Frontend_Developer_CV.pdf"
-            aria-label="Download Serhii Tokmakov Vue.js and TypeScript Frontend Developer CV as PDF"
+            :disabled="pdfState === 'loading'"
+            @click="downloadPdf"
           >
             <svg
               aria-hidden="true"
@@ -86,7 +121,7 @@ useHead({
             </svg>
             {{ copy.download }}
             <span class="button__format">PDF</span>
-          </a>
+          </button>
           <a
             class="button button--secondary"
             :href="profile.contacts.linkedin"
@@ -103,6 +138,28 @@ useHead({
         <BrandMark inverted />
       </div>
     </section>
+
+    <Teleport to="body">
+      <div v-if="pdfState !== 'idle'" class="pdf-dialog-backdrop">
+        <div
+          ref="pdfDialog"
+          class="pdf-dialog"
+          role="dialog"
+          aria-modal="true"
+          tabindex="-1"
+          :aria-label="pdfState === 'loading' ? copy.pdfPreparing : copy.pdfError"
+          aria-live="polite"
+        >
+          <span v-if="pdfState === 'loading'" class="pdf-dialog__spinner" aria-hidden="true" />
+          <h2>{{ pdfState === 'loading' ? copy.pdfPreparing : copy.pdfError }}</h2>
+          <p v-if="pdfState === 'loading'">{{ copy.pdfPreparingDetail }}</p>
+          <div v-else class="pdf-dialog__actions">
+            <button type="button" class="button button--download" @click="downloadPdf">{{ copy.pdfRetry }}</button>
+            <button type="button" class="button button--secondary" @click="pdfState = 'idle'">{{ copy.pdfClose }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
 
     <section class="proof-strip" :aria-label="copy.highlights">
       <article v-for="item in profile.strengths" :key="item.label">
